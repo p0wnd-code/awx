@@ -1,10 +1,10 @@
 ---
 all:
   hosts:
-    10.244.0.28:
-      ansible_host: 10.244.0.28
-    10.244.0.29:
-      ansible_host: 10.244.0.29
-    10.244.0.31:
-      ansible_host: 10.244.0.31
+    10.244.0.71:
+      ansible_host: 10.244.0.71
+    10.244.0.66:
+      ansible_host: 10.244.0.66
+    10.244.0.70 :
+      ansible_host: 10.244.0.70 
     # Voeg hier meer hosts toe
