@@ -1,7 +1,7 @@
 ---
 all:
   hosts:
-   10.244.0.71:
+   makelaar_prd:
       ansible_host: 10.244.0.71
    10.244.0.70:
       ansible_host: 10.244.0.70
