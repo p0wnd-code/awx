@@ -1,14 +1,14 @@
 ---
 all:
   hosts:
-   makelaar_prd:
+   urk_prd:
       ansible_host: 10.244.0.71
-   10.244.0.70:
+   sabewa_prd:
       ansible_host: 10.244.0.70
-   10.244.0.66:
+   breda_prd:
       ansible_host: 10.244.0.66
     # Test host die niet bestaat  
-    #10.244.0.100: 
+    #beek_prd: 
       #ansible_host: 10.244.0.100 
     # Voeg hier meer hosts toe
 
