@@ -1,13 +1,16 @@
 ---
 all:
   hosts:
-   makelaar_1:
+   10.244.0.71:
       ansible_host: 10.244.0.71
-   makelaar_2:
+   10.244.0.70:
       ansible_host: 10.244.0.70
-   makelaar_3:
+   10.244.0.66:
       ansible_host: 10.244.0.66
     # Test host die niet bestaat  
     #10.244.0.100: 
       #ansible_host: 10.244.0.100 
     # Voeg hier meer hosts toe
+
+
+# ALLEEN INHOUD OVERKOPIEEREN NAAR HUIDIGE INVENTORY.YML!!!
