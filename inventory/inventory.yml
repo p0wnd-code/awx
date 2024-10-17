@@ -1,14 +1,14 @@
 ---
 all:
   hosts:
-    Makelaar_1:
+    10.244.0.71:
       ansible_host: 10.244.0.71
-   Makelaar_2:
+   10.244.0.70:
       ansible_host: 10.244.0.70
-   Makelaar_3:
+   10.244.0.66:
       ansible_host: 10.244.0.66
     # Test host die niet bestaat  
-    #Makelaar_4_bestaat_niet: 
+    #10.244.0.100: 
       #ansible_host: 10.244.0.100 
     # Voeg hier meer hosts toe
 
